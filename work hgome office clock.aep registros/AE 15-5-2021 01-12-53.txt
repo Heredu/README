@@ -1,0 +1,8 @@
+  15/5/2021 01:12:53: Iniciando composición "tempConverterComp".
+
+  Salida a: C:\Users\Heredu\AppData\Local\Temp\Bodymovin\gon0ww9vnj\raw\images\img_3.png    15/5/2021 01:12:53: Composición finalizada "tempConverterComp".
+
+
+  Tiempo total transc.: 0 segundos
+Registro cerrado en 15/5/2021 a las 01:12:53
+
