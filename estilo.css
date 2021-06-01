@@ -198,7 +198,7 @@ h2 {
 }
 
 .skills {
-    height: 30em;
+    height: 41em;
     width: 50em; 
     margin: 1em;
     border: 0;   
@@ -210,12 +210,24 @@ h2 {
     box-shadow: 20px 20px 30px 0 rgb(122, 122, 122) ;
     position: relative;
     left: 8em;
-    bottom: 27em;
+    bottom: 16em;
     font-size: 1.2em;
+}
+
+.skills__li {
+    margin: 2em;
 }
 
 .caja-imgudemy {
     width: 5em;
+    margin: 1em;
+    display: inline-block;
+    margin-left: 3.5em;
+
+}
+
+.caja-cel {
+    width: 7em;
     margin: 1em;
     display: inline-block;
     margin-left: 3.5em;
