@@ -305,11 +305,141 @@ h2 {
     .contactos {
         width: 100%;
         margin: 0;
-        padding: 0;
+        margin-top: 5px;
         height: 100%;
         right: 10em;
+        left: 0;
+        display: block;
+
     }
 
+    .formacion{
+        width: 1em;
+        left: 0em;
+        bottom: 0em;
+        right: 0em;
+        display: block;
+        
+    }
 
+    .cel, .cel_on, .cel_off{
+        width: 10em;
+        margin: auto;
+    }
+
+    .img {
+        width: 8em;
+        margin: 1em;   
+        padding: -2em;
+        display: inline-block;
+        border-radius: 50em;
+        border: 0.4em solid white;
+    } 
+
+
+}
+
+@media only screen and  (max-width: 400px) {
+    .contactos {
+        font-size: 10px;
+        left: 0;
+        display: block;
+
+    }  
+
+    .caja-cel {
+        width: 7em;
+        margin: 0em;
+        display: inline-block;
+        
+    
+    }
+    
+    .cel, .cel_on, .cel_off{
+        width: 5em;
+        margin: 0;
+
+
+    }
+    
+    .formacion{
+        width: 100vw;
+        bottom: 0em;
+        right: 0em;
+        font-size: 10px;
+        margin: 0;
+        padding: 0;
+        display: block;
+               
+    } 
+    .cursos {
+        height: 11em;
+        width: 100vw; 
+        margin: 0em;
+        margin-left: 0em;
+        display: block;
+        padding: 0em;
+        left: 0em;
+        bottom: 0em;
+    }
+    .certificado {
+        
+        font-size: 15px;
+        text-decoration: none;
+        padding-left: 2em;
+        margin: 0.2em;
+        display: block;
+        position: relative;
+        bottom: 4em;
+        left: 5em;
+    
+    }
+    .caja-imgudemy {
+        width: 3em;
+        margin: 0em;
+        display: inline-block;
+        margin-left: 2.5em;
+        margin-top: 1em;
+    
+    }
+
+    .img {
+        margin: 1em;   
+        padding: -2em;
+        display: inline-block;
+        border-radius: 50em;
+        border: 0.4em solid white;
+    } 
+    h2 {
+        padding: 20px 0px 0px 20px;
+        color: #192f35;
+        font-size: 25px;
+        
+    }
+    
+    .fecha {
+        margin: 0;
+        margin-top: 1em;
+        padding-left: 20px;
+        display: inline-block;
+    }
+    
+    .subtitulo {
+        margin-left: 3em;
+        padding: 0;
+        display: inline-block;
+    }
+    
+    .subtitulo2 {
+        margin-left: 5.5em;
+        padding: 0;
+        display: inline-block;
+    }
+
+    .contents {
+        color: #192f35;
+        font-size: 15px;
+        margin-left: 7em;
+    }
 
 }
