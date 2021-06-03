@@ -309,6 +309,8 @@ h2 {
         font-size: 10px;
         left: 0;
         display: block;
+        margin-top: 2em;
+       
 
     }  
 
@@ -322,10 +324,17 @@ h2 {
     .cel, .cel_on, .cel_off{
         width: 5em;
         margin: 0;
-
+        padding: 0;
+        
+        left: 20em;
 
     }
-    
+
+    .cel_on {
+        margin-left: 5em;
+    }
+
+   
     .formacion{
         width: 100vw;
         bottom: 0em;
@@ -334,6 +343,8 @@ h2 {
         margin: 0;
         padding: 0;
         display: block;
+        margin-top: 5em;
+        margin-top: 2em;
                        
     } 
 
@@ -346,6 +357,7 @@ h2 {
         padding: 0em;
         left: 0em;
         bottom: 0em;
+        margin-top: 2em;
     }
     .certificado {
         
@@ -369,6 +381,7 @@ h2 {
         margin: 0;
         padding: 0;
         display: block;
+        margin-top: 2em;
                        
     } 
 
