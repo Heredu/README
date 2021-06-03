@@ -280,6 +280,7 @@ h2 {
 /*Resposive*/
 
 @media only screen and  (max-width: 800px) {
+    /*Nav*/
     .nav__li1, .nav__li2, .nav__li3 {
         display: block;
         width: 100%;
@@ -298,9 +299,11 @@ h2 {
         width: 100%;
     }
     
+    /*Preload*/
     .preload {
         margin-top: 50%;
     }
+
 
     .contactos {
         height: 35em;
@@ -314,13 +317,6 @@ h2 {
 
     }  
 
-    .caja-cel {
-        width: 4em;
-        margin: 2em;
-        display: inline-block;
-      
-    }
-    
     .cel, .cel_on, .cel_off{
         width: 5em;
         margin: 0;
@@ -384,6 +380,12 @@ h2 {
         margin-top: 2em;
                        
     } 
+    .caja-cel {
+        width: 4em;
+        margin: 2em;
+        display: inline-block;
+      
+    }
 
     .caja-imgudemy {
         width: 3em;
