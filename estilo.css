@@ -198,7 +198,7 @@ h2 {
 }
 
 .skills {
-    height: 41em;
+    height: 42em;
     width: 50em; 
     margin: 1em;
     border: 0;   
@@ -209,8 +209,8 @@ h2 {
     border-radius: 1.5em;
     box-shadow: 20px 20px 30px 0 rgb(122, 122, 122) ;
     position: relative;
-    left: 8em;
-    bottom: 16em;
+    left: 40em;
+    bottom: 44.5em;
     font-size: 1.2em;
 }
 
@@ -279,7 +279,7 @@ h2 {
 
 /*Resposive*/
 
-@media only screen and  (max-width: 700px) {
+@media only screen and  (max-width: 800px) {
     .nav__li1, .nav__li2, .nav__li3 {
         display: block;
         width: 100%;
@@ -303,44 +303,9 @@ h2 {
     }
 
     .contactos {
-        width: 100%;
+        height: 35em;
+        width: 100vw;
         margin: 0;
-        margin-top: 5px;
-        height: 100%;
-        right: 10em;
-        left: 0;
-        display: block;
-
-    }
-
-    .formacion{
-        width: 1em;
-        left: 0em;
-        bottom: 0em;
-        right: 0em;
-        display: block;
-        
-    }
-
-    .cel, .cel_on, .cel_off{
-        width: 10em;
-        margin: auto;
-    }
-
-    .img {
-        width: 8em;
-        margin: 1em;   
-        padding: -2em;
-        display: inline-block;
-        border-radius: 50em;
-        border: 0.4em solid white;
-    } 
-
-
-}
-
-@media only screen and  (max-width: 400px) {
-    .contactos {
         font-size: 10px;
         left: 0;
         display: block;
@@ -348,11 +313,10 @@ h2 {
     }  
 
     .caja-cel {
-        width: 7em;
-        margin: 0em;
+        width: 4em;
+        margin: 2em;
         display: inline-block;
-        
-    
+      
     }
     
     .cel, .cel_on, .cel_off{
@@ -365,13 +329,14 @@ h2 {
     .formacion{
         width: 100vw;
         bottom: 0em;
-        right: 0em;
+        left: 0em;
         font-size: 10px;
         margin: 0;
         padding: 0;
         display: block;
-               
+                       
     } 
+
     .cursos {
         height: 11em;
         width: 100vw; 
@@ -384,7 +349,7 @@ h2 {
     }
     .certificado {
         
-        font-size: 15px;
+        font-size: 14px;
         text-decoration: none;
         padding-left: 2em;
         margin: 0.2em;
@@ -394,6 +359,19 @@ h2 {
         left: 5em;
     
     }
+
+    .skills{
+        height: 30em;
+        width: 100vw;
+        bottom: 0em;
+        left: 0em;
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+        display: block;
+                       
+    } 
+
     .caja-imgudemy {
         width: 3em;
         margin: 0em;
@@ -442,4 +420,7 @@ h2 {
         margin-left: 7em;
     }
 
+
 }
+
+
