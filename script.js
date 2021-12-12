@@ -31,8 +31,8 @@ document.getElementById('cel_on').addEventListener("click", animation_cel=>{
     animation_cel = bodymovin.loadAnimation({
         container: document.getElementById('cel_off'),
           render: 'svg',
-         loop: false,
-         autoplay: false,
+         loop: true,
+         autoplay: true,
         path: 'data_cel.json'
        })
 });
