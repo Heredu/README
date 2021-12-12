@@ -13,7 +13,7 @@ var animation_cel = bodymovin.loadAnimation({
       render: 'svg',
      loop: true,
      autoplay: true,
-    path: 'data_cel.json'
+    path: 'data_cell_call.json'
 });
 
 // evento loader   
