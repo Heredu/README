@@ -27,6 +27,7 @@ window.addEventListener('load', () =>{
 
 document.getElementById('cel_on').addEventListener("click", animation_cel=>{
     document.getElementById('cel_on').className = 'preload-finish';
+    document.getElementById('cel_off').className = 'cel';
     
     animation_cel = bodymovin.loadAnimation({
         container: document.getElementById('cel_off'),
